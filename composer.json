@@ -1,0 +1,21 @@
+{
+    "name": "root/magazord",
+    "autoload": {
+        "psr-4": {
+            "Root\\Magazord\\": "src/",
+            "App\\": "App/",
+            "Entity\\": "src/Entity/"
+        }
+    },
+    "authors": [
+        {
+            "name": "higinofer",
+            "email": "fernandohigino.fsh@gmail.com"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^2.15",
+        "doctrine/dbal": "^3.6",
+        "symfony/cache": "^7.2"
+    }
+}
